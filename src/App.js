@@ -131,7 +131,7 @@ function App() {
               <img src={dev.avatar_url} alt={dev.name} />
               <div className="user-info">
                 <strong>{dev.name}</strong>
-                <strong>{dev.techs.join(', ')}</strong>
+                <p>{dev.techs.join(', ')}</p>
               </div>
             </header>
             <p>{dev.bio}</p>
